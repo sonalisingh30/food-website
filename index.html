@@ -1,0 +1,233 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        food website
+    </title>
+</head>
+<style>
+    #mainbody {
+
+
+        background: url("images/background.png") no-repeat fixed center;
+    }
+
+    #mainContainer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+    #leftContainer {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        background: #000;
+        opacity: 80%;
+        border-radius: 2vw;
+
+    }
+
+    #left_topContanier {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 1vw;
+
+    }
+
+    #menu_icon {
+        width: 32px;
+
+
+        height: auto;
+        margin: 1vw;
+    }
+
+    #search_icon {
+        width: 32px;
+
+        height: auto;
+        margin: 1vw;
+
+    }
+
+    #blankContainer {
+        flex: 1;
+        background-color: black;
+    }
+
+    #left_bottomContainer {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        background-color: gold;
+
+    }
+
+    .icons {
+        width: 16px;
+        align-items: center;
+        height: auto;
+        margin: 1vw;
+        justify-self: center;
+        align-items: center;
+
+
+    }
+
+    .iconsContainer {
+
+        width: auto;
+        margin: auto;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #rightContainer {
+        flex: 12;
+
+    }
+
+    #topContainer {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+
+    }
+
+
+
+    #foodContainer {
+
+
+        height: auto;
+        flex: 1;
+
+    }
+
+    #image_icon {
+        width: auto;
+        height: auto;
+        margin: 1vw;
+    }
+
+    #home {
+        flex: 1;
+        color: white;
+        margin: auto;
+    }
+
+    #about {
+        flex: 1;
+        margin: auto;
+        color: white;
+    }
+
+    #recipe {
+        flex: 1;
+        margin: auto;
+        color: white;
+    }
+
+    #blank {
+        flex: 2;
+
+    }
+
+    #sign_up {
+        flex: 1;
+        margin: auto;
+        color: black;
+        background-color: gold;
+        text-align: center;
+        padding: 1%;
+        font-size: medium;
+
+    }
+    #topHeading{
+        margin: 7%;
+        font-size: 5vw;
+        color: white;
+
+    }
+    #innerHeading{
+        color: gold;
+    }
+    #Explore{
+        width: 10%;
+        height: auto;
+        background-color: gold;
+        text-align: center;
+        margin: 1vw;
+        padding: 1%;
+
+
+    }
+</style>
+
+<body id="mainbody">
+    <div id="mainContainer">
+        <div id="leftContainer">
+            <div id="left_topContanier">
+
+                <img src="images/menu_icon.png" id="menu_icon">
+
+
+                <img src="images/search_icon.png" id="search_icon">
+
+            </div>
+            <div id="blankContainer">
+
+            </div>
+            <div id="left_bottomContainer">
+                <div class="iconsContainer"> <img src="images/Facebook_icon.png" class="icons"></div>
+                <div class="iconsContainer"><img src="images/Instagram_icon.png" class="icons"></div>
+                <div class="iconsContainer"> <img src="images/twitter_icone.png" class="icons"></div>
+                <div class="iconsContainer"> <img src="images/pinterest_icon.png" class="icons"></div>
+
+            </div>
+
+        </div>
+        <div id="rightContainer">
+            <div id="topContainer">
+                <div id="foodContainer">
+                    <img src="images/food_icon.png" id="image_icon">
+                </div>
+                <div id="home">
+                    HOME
+                </div>
+                <div id="about">
+                    ABOUT
+                </div>
+                <div id="recipe">
+                    RECIPE
+                </div>
+                <div id="blank"></div>
+                <div id="sign_up">
+                    SIGN UP
+                </div>
+               
+
+            </div>
+            <h1 id="topHeading">
+                Food <span id="innerHeading"> doesn't have 
+                <br>
+                a religion.</span> It is a religion.
+
+            </h1>
+            <div id="Explore">
+                EXPLORE
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
